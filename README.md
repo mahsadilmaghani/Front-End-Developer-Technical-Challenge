@@ -57,4 +57,5 @@ I also created the two extra blocks for ‘Staff’ and ‘Register’.
 Unfortunately, I don’t have access to IE11 as I've been using a MacBook. But I understand that flexbox is not fully supported in IE11. There are some good resources and discussions in the following example websites about how to fix the layout and flexbox issues in IE11 or use alternative solutions:
 
 https://caniuse.com/#feat=flexbox
+
 https://medium.com/css-mine/flexbox-how-to-deal-with-older-browsers-fbf6eb8c7a65
