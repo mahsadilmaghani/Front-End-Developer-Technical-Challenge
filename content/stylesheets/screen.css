@@ -50,7 +50,7 @@
   fill: #000000;
 }
 
-.card .card-controllers .favorite svg path:hover {
+.card .card-controllers .favorite:hover svg path {
   fill: red;
   /* Bug 3 fix */
 }

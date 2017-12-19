@@ -40,14 +40,20 @@
                 path{
                     fill: $black;
 
-                      &:hover{
-                        fill:$red; /* Bug 3 fix */
-                      }
+
                 }
             }
-            .on {
-              fill:$red; /* Bug 3 fix */
+            &:hover{
+              svg {
+                path {
+                  fill:$red; /* Bug 3 fix */
+                }
+              }
             }
+
+            .on {
+                fill:$red; /* Bug 3 fix */
+              }
         }
         button{
             border: 0;
