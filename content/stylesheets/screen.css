@@ -55,11 +55,6 @@
   /* Bug 3 fix */
 }
 
-.card .card-controllers .favorite .on {
-  fill: red;
-  /* Bug 3 fix */
-}
-
 .card .card-controllers button {
   border: 0;
   background-color: transparent;

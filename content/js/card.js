@@ -1,12 +1,14 @@
 // Bug 3 fix - change color of heart icon to red on click
 $( document ).ready(function() {
-  $("path").click(function(){
+  $(".favorite").click(function(){
 
     if ($(this).hasClass("on")) {
       $(this).removeClass("on");
+      $(".favorite").children().children().css("fill","black");
     }
     else {
       $(this).addClass("on");
+      $(".on").children().children().css("fill","red");
     }
   });
 
